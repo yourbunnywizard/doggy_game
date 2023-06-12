@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doggy game</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<div class="animation-selector">
+		<label for="animations">Animation type</label>
+		<select name="animations" id="animations">
+			<option value="idle">Idle</option>
+			<option value="jump">Jump</option>
+			<option value="fall">Fall</option>
+			<option value="run">Run</option>
+			<option value="dizzy">Dizzy</option>
+			<option value="sit">Sit</option>
+			<option value="roll">Roll</option>
+			<option value="bite">Bite</option>
+			<option value="ko">Ko</option>
+			<option value="getHit">GetHit</option>
+		</select>
+	</div>	
+	<div class="game-area">		
+		<canvas id="render-view"></canvas>
+	</div>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
